@@ -16,6 +16,7 @@ import PlayQuiz from './Components/PlayQuiz';
 function App() {
   return (
     <div className='app-main'>
+      {/* Example comennt */}
     <Routes>
       <Route exact path='/' element={<Quiz />} />
       <Route exact path='/play' element={<PlayQuiz />} />
